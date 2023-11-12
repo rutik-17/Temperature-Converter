@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 360px;
+    background-color: white;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: #875c9b 10px 6px 6px;
+}
+body{
+    background: linear-gradient(90deg,#29272d 0%, #21166b 100%); 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141754;
+    font-size: 1rem;
+}
+
+.temperature-converter{
+    background-color: aqua;
+    padding: 10px;
+    box-shadow: 15px 15px 6px;
+    height: 350px;
+    width: 300px;
+    
+}
+
+
+.title{
+    color: #5a0ea1;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 15px;
+}
+
+.degree-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.temp-field{
+    margin: 10px;
+}
+.degree-field{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px;
+}
+
+label{
+    color: #3932a5;
+    font-size: 0.8rem;
+    margin-bottom: 1px;
+}
+input, select{
+    background: #d2d3f3;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #402de3;
+    padding: 8px;
+    margin-bottom: 7px;
+    border-radius: 15px;
+    border-radius: 15px;
+}
+input:focus{
+    border: 1px solid #4c49f3;
+}
+option{
+    background: #b9b3d3;
+    color: #090808;
+}
+
+.result{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.result-heading{
+    color: #5a0ea1;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.celsius-value{
+    border-bottom: 2px solid #402de3;
+    padding: 12px;
+    transition: all .45s ease;
+    border-radius: 12px;
+    background: #d2d3f3;
+}
+#btn{
+    width: 280px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    background-color: #d2d3f3;
+    color: #08057e;
+    padding: 8px 80px;
+    font-weight: bold;
+    /* letter-spacing: 0px; */
+    /* margin-top: 0px; */
+    transition: all .3s ease-in;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#btn:hover{
+    background: linear-gradient(to bottom, #8988e9, #7b79ce);
+
+
+}
+.fa{
+    margin-left: -12px;
+    margin-right: 8px;
+}
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempreture Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="boxicons.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div class="Temprature-Converter">
+            <div class="Mobile">
+                <p>12.17PM</p>
+               
+            </div>
+            <h2 class="title">Temprature Converter</h2>
+            
+            <div class="degree-type">
+                <div class="temp-field">
+                    <label for="temp-type">Type</label>
+                    <select name="temperature" id="temp-type" autocomplete="on">
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+                <div class="degree-field">
+                    <label for="degree">Degree</label>
+                    <input type="number" name="degree" id="degree" >
+                </div>
+                
+            </div>
+            <div class="result">
+                <span class="result-heading">Result(celsius)</span>
+                <h2 class="celsius-value" id="celsius"> </h2> 
+            </div>
+            <button id="btn">Convert</button>
+
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
